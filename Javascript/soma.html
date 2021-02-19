@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Javascript</title>
+        
+        <script>
+           
+            var valor1 = prompt('Informe o primeiro valor : ')
+            var operacao = prompt('infome a operacao que deseja realizar : soma/subtracao')
+            var valor2 = prompt('Informe o segundo valor')
+
+            function calculo (valor1, valor2 , operacao){
+
+               
+                var resultado = 0
+
+                if (operacao == 'soma'){
+                    resultado = valor1 + valor2;
+                }
+
+                if (operacao == 'subtracao'){
+                    resultado = valor1 - valor2;
+                }
+
+                return resultado
+
+
+            }
+
+            document.write ('o resultado é : ' + calculo(valor1,valor2,operacao))
+            
+           
+        </script>
+        
+
+    </head>
+
+    <body>
+      
+        
+    </body>
+
+
+
+
+</html>
